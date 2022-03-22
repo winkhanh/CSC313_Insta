@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Insta</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="compose">Compose</string>
+    <string name="home">home</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submit">Submit</string>
+    <string name="captureimage">CaptureImage</string>
+    <string name="name">Name</string>
+    <string name="write_something_for_this_picture">write something for this picture</string>
+    <string name="register">Register</string>
+    <string name="logout">LogOut</string>
+</resources>
