@@ -36,7 +36,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='./Walkthrough2' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./Walkthrough2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Time spent: **6** hours spent in total
 
