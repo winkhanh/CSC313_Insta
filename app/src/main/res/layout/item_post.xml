@@ -9,18 +9,18 @@
         android:id="@+id/tvAuthor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="6dp"
         android:layout_marginTop="26dp"
-        android:text="TextView"
-        android:textColor="#000000"
+        android:layout_toEndOf="@+id/ivAvatar"
+        android:text="@string/textview"
+        android:textColor="#607D8B"
         android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/ivImage"
         android:layout_width="400dp"
         android:layout_height="400dp"
-        android:layout_below="@+id/tvAuthor"
+        android:layout_below="@+id/ivAvatar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="2dp"
         android:maxWidth="400dp"
@@ -35,4 +35,27 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="10dp"
         android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/ivAvatar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/default_avatar"
+        tools:srcCompat="@drawable/default_avatar" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="30dp"
+        android:layout_toEndOf="@+id/tvAuthor"
+        android:text="@string/textview"
+        android:textAlignment="viewEnd"
+        android:textColor="#0A6491" />
 </RelativeLayout>

@@ -14,4 +14,8 @@
     <string name="write_something_for_this_picture">write something for this picture</string>
     <string name="register">Register</string>
     <string name="logout">LogOut</string>
+    <string name="profilename">ProfileName</string>
+    <string name="avatar">Avatar</string>
+    <string name="textview">TextView</string>
+
 </resources>

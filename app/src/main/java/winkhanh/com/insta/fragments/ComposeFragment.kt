@@ -39,7 +39,6 @@ private const val ARG_PARAM2 = "param2"
 class ComposeFragment : Fragment() {
     // TODO: Rename and change types of parameters
 
-    private val CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE: Int = 18
     lateinit var etDescription : EditText
     lateinit var btSubmit : Button
     lateinit var postedImage : ImageView
